@@ -5,7 +5,6 @@ void main() {
   runApp(
     MaterialApp(
       home: HomeScreen(),
-    ),
+    )
   );
 }
-
