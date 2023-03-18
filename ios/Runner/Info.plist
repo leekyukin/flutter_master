@@ -47,15 +47,12 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-
-
-	// http(https아님)를 사용 설정
 	<key>NSAppTransportSecurity</key>
-	 ‹dict>
-	  <key>NSAllowsLocalNetworking</key>
-	  <true/>
-	  <key>NSAllowsArbitraryLoadsInWebContent</key>
-	  <true/>
+	<dict>
+	    <key>NSAllowsLocalNetworking</key>
+	    <true/>
+	    <key>NSAllowArbitraryLoadsInWebContent</key>
+	    <true/>
     </dict>
 </dict>
 </plist>
